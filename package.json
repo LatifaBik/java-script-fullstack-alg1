@@ -1,0 +1,25 @@
+{
+  "name": "java-script-fullstack-alg1",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/LatifaBik/java-script-fullstack-alg1#readme",
+  "bugs": {
+    "url": "https://github.com/LatifaBik/java-script-fullstack-alg1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LatifaBik/java-script-fullstack-alg1.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "alg1.js",
+  "scripts": {
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest",
+    "test:watch": "cross-env NODE_OPTIONS=--experimental-vm-modules jest--watch"
+  },
+  "dependencies": {
+    "cross-env": "^10.1.0",
+    "jest": "^30.3.0"
+  }
+}
